@@ -41,6 +41,7 @@
 		345F0B1126AA00260079F576 = {
 			isa = PBXGroup;
 			children = (
+				345877FB26AD644A001D478F /* README.md */,
 				345F0B1C26AA00260079F576 /* We Bare Bears SoundBoard */,
 				345F0B1B26AA00260079F576 /* Products */,
 			);
@@ -57,7 +58,6 @@
 		345F0B1C26AA00260079F576 /* We Bare Bears SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
-				345877FB26AD644A001D478F /* README.md */,
 				345F0B1D26AA00260079F576 /* AppDelegate.swift */,
 				345F0B1F26AA00270079F576 /* SceneDelegate.swift */,
 				345F0B2126AA00270079F576 /* ViewController.swift */,
