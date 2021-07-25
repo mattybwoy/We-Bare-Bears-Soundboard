@@ -22,8 +22,7 @@ This app focuses on experimenting with the filesystem, displaying images on scre
 
 
 ## Screenshots
-
-
+1
 ![HomeScreen](homeScreen.png)
 
 ## Tech Stack
