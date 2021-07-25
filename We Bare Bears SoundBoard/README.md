@@ -22,8 +22,8 @@ This app focuses on experimenting with the filesystem, displaying images on scre
 
 
 ## Screenshots
-12
-![HomeScreen](homeScreen.png)[H]
+
+![HomeScreen](homeScreen.png)
 
 ## Tech Stack
 Swift
