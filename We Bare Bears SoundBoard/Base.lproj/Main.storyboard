@@ -18,76 +18,110 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f07-Iy-69M" userLabel="Background">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" red="1" green="0.93162381271052042" blue="0.75945187454474516" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.74817433983388582" green="0.70041111522327082" blue="0.57693604739098603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="bcg-Ic-GNN">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="bcg-Ic-GNN">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY4-kM-xSa" userLabel="TopView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="243.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="247.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdQ-wd-nhT" userLabel="WBBlogo">
-                                                <rect key="frame" x="65" y="61" width="285" height="121"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdQ-wd-nhT" userLabel="WBBlogo">
+                                                <rect key="frame" x="64.5" y="63" width="285" height="121"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="285" id="8XM-zS-Dbs"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="121" id="ZaX-4J-WuU"/>
+                                                    <constraint firstAttribute="height" constant="121" id="eR9-Ub-pIY"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="285" id="sxf-xB-bRC"/>
+                                                </constraints>
                                                 <state key="normal" title="Button" image="WBB.svg"/>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="ZdQ-wd-nhT" firstAttribute="centerX" secondItem="eY4-kM-xSa" secondAttribute="centerX" id="5ic-1K-cvP"/>
-                                            <constraint firstItem="ZdQ-wd-nhT" firstAttribute="centerY" secondItem="eY4-kM-xSa" secondAttribute="centerY" id="fMX-kg-SYR"/>
+                                            <constraint firstItem="ZdQ-wd-nhT" firstAttribute="centerX" secondItem="eY4-kM-xSa" secondAttribute="centerX" id="WXC-hL-zW8"/>
+                                            <constraint firstItem="ZdQ-wd-nhT" firstAttribute="centerY" secondItem="eY4-kM-xSa" secondAttribute="centerY" id="xfQ-Gu-aDD"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-ks-zxs" userLabel="MiddleView">
-                                        <rect key="frame" x="0.0" y="287.5" width="414" height="243"/>
+                                        <rect key="frame" x="0.0" y="285.5" width="414" height="247"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bros1" translatesAutoresizingMaskIntoConstraints="NO" id="x6K-7S-LL1">
-                                                <rect key="frame" x="31" y="16" width="352" height="227"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bros1" translatesAutoresizingMaskIntoConstraints="NO" id="x6K-7S-LL1">
+                                                <rect key="frame" x="31" y="10" width="352" height="227"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="352" id="8ax-Pt-ROA"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="227" id="TkL-yN-Lwj"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="352" id="dx1-3x-ide"/>
+                                                    <constraint firstAttribute="height" constant="227" id="mkw-gl-n3m"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="x6K-7S-LL1" firstAttribute="centerX" secondItem="sIe-ks-zxs" secondAttribute="centerX" id="5TW-6Z-cmo"/>
+                                            <constraint firstItem="x6K-7S-LL1" firstAttribute="centerY" secondItem="sIe-ks-zxs" secondAttribute="centerY" id="m9i-oT-9kb"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lqp-Ee-A2b" userLabel="BottomView">
-                                        <rect key="frame" x="0.0" y="574.5" width="414" height="243.5"/>
+                                        <rect key="frame" x="0.0" y="570.5" width="414" height="247.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUH-dO-q8W">
-                                                <rect key="frame" x="33" y="72" width="100" height="100"/>
-                                                <state key="normal" title="GrizzButton" image="grizzface"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAk-ag-Kmp">
-                                                <rect key="frame" x="277" y="72" width="100" height="100"/>
-                                                <state key="normal" title="IceBearButton" image="iceface"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNz-Nt-GeH">
-                                                <rect key="frame" x="157" y="72" width="100" height="100"/>
-                                                <state key="normal" title="PanpanButton" image="panpanface">
-                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="7Y6-sq-XOK">
+                                                <rect key="frame" x="35" y="74" width="344" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUH-dO-q8W">
+                                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="IyK-6I-2ah"/>
+                                                            <constraint firstAttribute="height" constant="100" id="NBr-1f-WM8"/>
+                                                        </constraints>
+                                                        <state key="normal" title="GrizzButton" image="grizzface"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNz-Nt-GeH">
+                                                        <rect key="frame" x="122" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="XRV-Yp-GZH"/>
+                                                            <constraint firstAttribute="height" constant="100" id="yUw-el-yYT"/>
+                                                        </constraints>
+                                                        <state key="normal" title="PanpanButton" image="panpanface">
+                                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAk-ag-Kmp">
+                                                        <rect key="frame" x="244" y="0.0" width="100" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="2Jf-rv-bPb"/>
+                                                            <constraint firstAttribute="height" constant="100" id="9XK-OW-Z17"/>
+                                                        </constraints>
+                                                        <state key="normal" title="IceBearButton" image="iceface"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="jNz-Nt-GeH" firstAttribute="leading" secondItem="YUH-dO-q8W" secondAttribute="trailing" constant="20" id="N83-q2-T8U"/>
-                                            <constraint firstItem="jNz-Nt-GeH" firstAttribute="leading" secondItem="YUH-dO-q8W" secondAttribute="trailing" constant="20" id="TB8-ie-lFd"/>
-                                            <constraint firstItem="sAk-ag-Kmp" firstAttribute="leading" secondItem="jNz-Nt-GeH" secondAttribute="trailing" constant="20" id="bhV-mp-d1j"/>
-                                            <constraint firstItem="sAk-ag-Kmp" firstAttribute="leading" secondItem="jNz-Nt-GeH" secondAttribute="trailing" constant="20" id="c9e-Hv-L47"/>
+                                            <constraint firstItem="7Y6-sq-XOK" firstAttribute="centerY" secondItem="lqp-Ee-A2b" secondAttribute="centerY" id="044-qB-6iI"/>
+                                            <constraint firstItem="7Y6-sq-XOK" firstAttribute="centerX" secondItem="lqp-Ee-A2b" secondAttribute="centerX" id="hHn-EU-1a0"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="sIe-ks-zxs" firstAttribute="centerY" secondItem="bcg-Ic-GNN" secondAttribute="centerY" id="5mC-ee-py7"/>
                                     <constraint firstItem="sIe-ks-zxs" firstAttribute="centerX" secondItem="bcg-Ic-GNN" secondAttribute="centerX" id="9fO-VX-wjF"/>
+                                    <constraint firstItem="lqp-Ee-A2b" firstAttribute="centerX" secondItem="bcg-Ic-GNN" secondAttribute="centerX" id="AGy-Q0-NM7"/>
+                                    <constraint firstItem="eY4-kM-xSa" firstAttribute="centerX" secondItem="bcg-Ic-GNN" secondAttribute="centerX" id="k0o-d7-4Gg"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bcg-Ic-GNN" secondAttribute="bottom" id="1Ac-45-PPb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bcg-Ic-GNN" secondAttribute="trailing" id="56A-hB-mmb"/>
+                            <constraint firstItem="bcg-Ic-GNN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5At-cZ-h1c"/>
                             <constraint firstAttribute="bottom" secondItem="f07-Iy-69M" secondAttribute="bottom" id="7dL-Rf-2DB"/>
-                            <constraint firstItem="bcg-Ic-GNN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LUL-gw-BpZ"/>
                             <constraint firstItem="bcg-Ic-GNN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="T4M-4D-yGa"/>
+                            <constraint firstItem="bcg-Ic-GNN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UcO-C9-Wn3"/>
                             <constraint firstItem="f07-Iy-69M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WKN-Rr-OsJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bcg-Ic-GNN" secondAttribute="bottom" id="hEl-uG-AWt"/>
                             <constraint firstItem="f07-Iy-69M" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oiS-MJ-qva"/>
                             <constraint firstAttribute="trailing" secondItem="f07-Iy-69M" secondAttribute="trailing" id="qIT-B1-qOg"/>
+                            <constraint firstItem="bcg-Ic-GNN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tnQ-yM-n3F"/>
                         </constraints>
                     </view>
                 </viewController>
