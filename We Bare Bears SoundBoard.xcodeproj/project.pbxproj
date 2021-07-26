@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345877FE26AF3AB6001D478F /* ThemeSong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 345877FD26AF3AB6001D478F /* ThemeSong.m4a */; };
 		345F0B1E26AA00270079F576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B1D26AA00260079F576 /* AppDelegate.swift */; };
 		345F0B2026AA00270079F576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B1F26AA00270079F576 /* SceneDelegate.swift */; };
 		345F0B2226AA00270079F576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B2126AA00270079F576 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		345877FB26AD644A001D478F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		345877FD26AF3AB6001D478F /* ThemeSong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThemeSong.m4a; sourceTree = "<group>"; };
 		345F0B1A26AA00260079F576 /* We Bare Bears SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Bare Bears SoundBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		345F0B1D26AA00260079F576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		345F0B1F26AA00270079F576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		345877FC26AF3AB6001D478F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				345877FD26AF3AB6001D478F /* ThemeSong.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		345F0B1126AA00260079F576 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 				345F0B2626AA00280079F576 /* Assets.xcassets */,
 				345F0B2826AA00280079F576 /* LaunchScreen.storyboard */,
 				345F0B2B26AA00280079F576 /* Info.plist */,
+				345877FC26AF3AB6001D478F /* Sounds */,
 			);
 			path = "We Bare Bears SoundBoard";
 			sourceTree = "<group>";
@@ -129,6 +140,7 @@
 				345F0B2A26AA00280079F576 /* LaunchScreen.storyboard in Resources */,
 				345F0B2726AA00280079F576 /* Assets.xcassets in Resources */,
 				345F0B2526AA00270079F576 /* Main.storyboard in Resources */,
+				345877FE26AF3AB6001D478F /* ThemeSong.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

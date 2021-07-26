@@ -35,6 +35,9 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="285" id="sxf-xB-bRC"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="WBB.svg"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vBZ-dc-q9A"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
