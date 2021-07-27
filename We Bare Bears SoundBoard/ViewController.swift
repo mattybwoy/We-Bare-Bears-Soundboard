@@ -11,6 +11,9 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer!
+    let grizzSounds: [String] = []
+    let panpanSounds: [String] = []
+    let iceSounds: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +21,18 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        let soundWave = sender.currentTitle!
+        var soundWave = sender.currentTitle!
+        
+        if soundWave == "GrizzButton" {
+            soundWave = "Grizz1"
+        } else if soundWave == "PanpanButton" {
+            soundWave = "Panpan1"
+        } else if soundWave == "IceBearButton" {
+            soundWave = "Icebear1"
+        } else {
+            soundWave = "ThemeSong"
+        }
+        
         playSound(soundName: soundWave)
         // sets opacity to half - you can change the opacity by editing "0.5"
         sender.alpha = 0.5
@@ -33,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     func playSound(soundName: String) {
-        let url = Bundle.main.url(forResource: "ThemeSong", withExtension: "m4a")
+        let url = Bundle.main.url(forResource: soundName, withExtension: "m4a")
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
                 

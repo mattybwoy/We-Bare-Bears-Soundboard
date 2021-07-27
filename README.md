@@ -12,9 +12,10 @@ This app focuses on experimenting with the filesystem, displaying images on scre
 - All constraints now working, app can now be viewed in landscape mode
 - All images and buttons present on screen
 - Theme song now played when clicked on main heading
+- Individual soundbites added to main buttons
 
 ## Improvements
-- Functional buttons with soundbites for individual bear
+- Random soundbites are played for each individual bear.
 
 
 ## Installation
