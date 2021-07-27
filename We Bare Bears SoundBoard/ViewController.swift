@@ -11,9 +11,9 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer!
-    let grizzSounds: [String] = []
-    let panpanSounds: [String] = []
-    let iceSounds: [String] = []
+    let grizzSounds = ["Grizz1", "Grizz2", "Grizz3"]
+    let panpanSounds = ["Panpan1", "Panpan2", "Panpan3"]
+    let iceSounds = ["Icebear1", "Icebear2", "Icebear3"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,11 +24,11 @@ class ViewController: UIViewController {
         var soundWave = sender.currentTitle!
         
         if soundWave == "GrizzButton" {
-            soundWave = "Grizz1"
+            soundWave = grizzSounds.randomElement()!
         } else if soundWave == "PanpanButton" {
-            soundWave = "Panpan1"
+            soundWave = panpanSounds.randomElement()!
         } else if soundWave == "IceBearButton" {
-            soundWave = "Icebear1"
+            soundWave = iceSounds.randomElement()!
         } else {
             soundWave = "ThemeSong"
         }
