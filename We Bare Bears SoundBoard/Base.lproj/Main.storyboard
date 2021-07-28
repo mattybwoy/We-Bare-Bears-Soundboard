@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -18,21 +18,21 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="We_Bare_Bears_SoundBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f07-Iy-69M" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" red="0.74817433983388582" green="0.70041111522327082" blue="0.57693604739098603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="bcg-Ic-GNN">
-                                <rect key="frame" x="44" y="0.0" width="808" height="393"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eY4-kM-xSa" userLabel="TopView">
-                                        <rect key="frame" x="0.0" y="0.0" width="808" height="116.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="258"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdQ-wd-nhT" userLabel="WBBlogo">
-                                                <rect key="frame" x="261.5" y="-2.5" width="285" height="121"/>
+                                                <rect key="frame" x="64.5" y="68.5" width="285" height="121"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="285" id="8XM-zS-Dbs"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="121" id="ZaX-4J-WuU"/>
@@ -45,7 +45,7 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soundboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3A-dh-Kwg">
-                                                <rect key="frame" x="260" y="128.5" width="288.5" height="47.5"/>
+                                                <rect key="frame" x="63" y="199.5" width="288.5" height="47.5"/>
                                                 <fontDescription key="fontDescription" name="IntroRustL-Base" family="Intro Rust L" pointSize="40"/>
                                                 <color key="textColor" red="0.26666666666666666" green="0.2196078431372549" blue="0.16470588235294117" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -60,10 +60,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-ks-zxs" userLabel="MiddleView">
-                                        <rect key="frame" x="0.0" y="138.5" width="808" height="116"/>
+                                        <rect key="frame" x="0.0" y="280" width="414" height="258"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bros1" translatesAutoresizingMaskIntoConstraints="NO" id="x6K-7S-LL1">
-                                                <rect key="frame" x="228" y="-55.5" width="352" height="227"/>
+                                                <rect key="frame" x="31" y="15.5" width="352" height="227"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="352" id="8ax-Pt-ROA"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="227" id="TkL-yN-Lwj"/>
@@ -78,10 +78,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lqp-Ee-A2b" userLabel="BottomView">
-                                        <rect key="frame" x="0.0" y="276.5" width="808" height="116.5"/>
+                                        <rect key="frame" x="0.0" y="560" width="414" height="258"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="7Y6-sq-XOK">
-                                                <rect key="frame" x="232" y="8.5" width="344" height="100"/>
+                                                <rect key="frame" x="35" y="79" width="344" height="100"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUH-dO-q8W">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
