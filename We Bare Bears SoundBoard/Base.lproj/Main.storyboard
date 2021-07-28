@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="IntroRustL-Base.otf">
+            <string>IntroRustL-Base</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -39,10 +44,19 @@
                                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vBZ-dc-q9A"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soundboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3A-dh-Kwg">
+                                                <rect key="frame" x="63" y="194" width="288.5" height="47.5"/>
+                                                <fontDescription key="fontDescription" name="IntroRustL-Base" family="Intro Rust L" pointSize="40"/>
+                                                <color key="textColor" red="0.26666666666666666" green="0.2196078431372549" blue="0.16470588235294117" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="F3A-dh-Kwg" firstAttribute="top" secondItem="ZdQ-wd-nhT" secondAttribute="bottom" constant="10" id="9kM-wr-qaG"/>
+                                            <constraint firstItem="F3A-dh-Kwg" firstAttribute="centerX" secondItem="eY4-kM-xSa" secondAttribute="centerX" id="Mbr-gn-3Dn"/>
                                             <constraint firstItem="ZdQ-wd-nhT" firstAttribute="centerX" secondItem="eY4-kM-xSa" secondAttribute="centerX" id="WXC-hL-zW8"/>
                                             <constraint firstItem="ZdQ-wd-nhT" firstAttribute="centerY" secondItem="eY4-kM-xSa" secondAttribute="centerY" id="xfQ-Gu-aDD"/>
+                                            <constraint firstItem="F3A-dh-Kwg" firstAttribute="centerY" secondItem="eY4-kM-xSa" secondAttribute="centerY" constant="94.25" id="zyY-yi-1Pv"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIe-ks-zxs" userLabel="MiddleView">

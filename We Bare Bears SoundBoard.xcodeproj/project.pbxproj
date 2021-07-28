@@ -17,6 +17,7 @@
 		3458784926B092CF001D478F /* Panpan2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783F26B092CF001D478F /* Panpan2.m4a */; };
 		3458784A26B092CF001D478F /* Panpan3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458784026B092CF001D478F /* Panpan3.m4a */; };
 		3458784B26B092CF001D478F /* Panpan1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458784126B092CF001D478F /* Panpan1.m4a */; };
+		3458784E26B14E0A001D478F /* IntroRustL-Base.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3458784D26B14E0A001D478F /* IntroRustL-Base.otf */; };
 		345F0B1E26AA00270079F576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B1D26AA00260079F576 /* AppDelegate.swift */; };
 		345F0B2026AA00270079F576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B1F26AA00270079F576 /* SceneDelegate.swift */; };
 		345F0B2226AA00270079F576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B2126AA00270079F576 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 		3458783F26B092CF001D478F /* Panpan2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan2.m4a; sourceTree = "<group>"; };
 		3458784026B092CF001D478F /* Panpan3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan3.m4a; sourceTree = "<group>"; };
 		3458784126B092CF001D478F /* Panpan1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan1.m4a; sourceTree = "<group>"; };
+		3458784D26B14E0A001D478F /* IntroRustL-Base.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntroRustL-Base.otf"; sourceTree = "<group>"; };
 		345F0B1A26AA00260079F576 /* We Bare Bears SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Bare Bears SoundBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		345F0B1D26AA00260079F576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		345F0B1F26AA00270079F576 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 			path = Sounds;
 			sourceTree = SOURCE_ROOT;
 		};
+		3458784C26B14DBD001D478F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3458784D26B14E0A001D478F /* IntroRustL-Base.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		345F0B1126AA00260079F576 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		345F0B1C26AA00260079F576 /* We Bare Bears SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				3458784C26B14DBD001D478F /* Fonts */,
 				345F0B1D26AA00260079F576 /* AppDelegate.swift */,
 				345F0B1F26AA00270079F576 /* SceneDelegate.swift */,
 				345F0B2126AA00270079F576 /* ViewController.swift */,
@@ -168,6 +179,7 @@
 				345F0B2A26AA00280079F576 /* LaunchScreen.storyboard in Resources */,
 				3458784526B092CF001D478F /* ThemeSong.m4a in Resources */,
 				345F0B2726AA00280079F576 /* Assets.xcassets in Resources */,
+				3458784E26B14E0A001D478F /* IntroRustL-Base.otf in Resources */,
 				3458784A26B092CF001D478F /* Panpan3.m4a in Resources */,
 				3458784B26B092CF001D478F /* Panpan1.m4a in Resources */,
 				3458784226B092CF001D478F /* Grizz2.m4a in Resources */,

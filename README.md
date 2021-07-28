@@ -13,9 +13,9 @@ This app focuses on experimenting with the filesystem, displaying images on scre
 - All images and buttons present on screen
 - Theme song now played when clicked on main heading
 - Individual soundbites added to main buttons
+- Extra soundbites added, random soundbite played when button is pressed
 
 ## Improvements
-- Random soundbites are played for each individual bear.
 
 
 ## Installation
