@@ -16,7 +16,7 @@ This app focuses on experimenting with the filesystem, displaying images on scre
 - Extra soundbites added, random soundbite played when button is pressed
 
 ## Improvements
-
+Nothing!!!!
 
 ## Installation
 
