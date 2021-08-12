@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3458784226B092CF001D478F /* Grizz2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783826B092CF001D478F /* Grizz2.m4a */; };
-		3458784326B092CF001D478F /* Grizz3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783926B092CF001D478F /* Grizz3.m4a */; };
-		3458784426B092CF001D478F /* Grizz1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783A26B092CF001D478F /* Grizz1.m4a */; };
-		3458784526B092CF001D478F /* ThemeSong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783B26B092CF001D478F /* ThemeSong.m4a */; };
-		3458784626B092CF001D478F /* Icebear1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783C26B092CF001D478F /* Icebear1.m4a */; };
-		3458784726B092CF001D478F /* Icebear3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783D26B092CF001D478F /* Icebear3.m4a */; };
-		3458784826B092CF001D478F /* Icebear2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783E26B092CF001D478F /* Icebear2.m4a */; };
-		3458784926B092CF001D478F /* Panpan2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458783F26B092CF001D478F /* Panpan2.m4a */; };
-		3458784A26B092CF001D478F /* Panpan3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458784026B092CF001D478F /* Panpan3.m4a */; };
-		3458784B26B092CF001D478F /* Panpan1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3458784126B092CF001D478F /* Panpan1.m4a */; };
+		34357E6126C588E2003F4C69 /* Grizz2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5726C588E2003F4C69 /* Grizz2.m4a */; };
+		34357E6226C588E2003F4C69 /* Grizz3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5826C588E2003F4C69 /* Grizz3.m4a */; };
+		34357E6326C588E2003F4C69 /* Grizz1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5926C588E2003F4C69 /* Grizz1.m4a */; };
+		34357E6426C588E2003F4C69 /* ThemeSong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5A26C588E2003F4C69 /* ThemeSong.m4a */; };
+		34357E6526C588E2003F4C69 /* Icebear1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5B26C588E2003F4C69 /* Icebear1.m4a */; };
+		34357E6626C588E2003F4C69 /* Icebear3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5C26C588E2003F4C69 /* Icebear3.m4a */; };
+		34357E6726C588E2003F4C69 /* Icebear2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5D26C588E2003F4C69 /* Icebear2.m4a */; };
+		34357E6826C588E2003F4C69 /* Panpan2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5E26C588E2003F4C69 /* Panpan2.m4a */; };
+		34357E6926C588E2003F4C69 /* Panpan3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E5F26C588E2003F4C69 /* Panpan3.m4a */; };
+		34357E6A26C588E2003F4C69 /* Panpan1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 34357E6026C588E2003F4C69 /* Panpan1.m4a */; };
 		3458784E26B14E0A001D478F /* IntroRustL-Base.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3458784D26B14E0A001D478F /* IntroRustL-Base.otf */; };
 		345F0B1E26AA00270079F576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B1D26AA00260079F576 /* AppDelegate.swift */; };
 		345F0B2026AA00270079F576 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F0B1F26AA00270079F576 /* SceneDelegate.swift */; };
@@ -27,17 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34357E5726C588E2003F4C69 /* Grizz2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grizz2.m4a; sourceTree = "<group>"; };
+		34357E5826C588E2003F4C69 /* Grizz3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grizz3.m4a; sourceTree = "<group>"; };
+		34357E5926C588E2003F4C69 /* Grizz1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grizz1.m4a; sourceTree = "<group>"; };
+		34357E5A26C588E2003F4C69 /* ThemeSong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThemeSong.m4a; sourceTree = "<group>"; };
+		34357E5B26C588E2003F4C69 /* Icebear1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icebear1.m4a; sourceTree = "<group>"; };
+		34357E5C26C588E2003F4C69 /* Icebear3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icebear3.m4a; sourceTree = "<group>"; };
+		34357E5D26C588E2003F4C69 /* Icebear2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icebear2.m4a; sourceTree = "<group>"; };
+		34357E5E26C588E2003F4C69 /* Panpan2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan2.m4a; sourceTree = "<group>"; };
+		34357E5F26C588E2003F4C69 /* Panpan3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan3.m4a; sourceTree = "<group>"; };
+		34357E6026C588E2003F4C69 /* Panpan1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan1.m4a; sourceTree = "<group>"; };
 		345877FB26AD644A001D478F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3458783826B092CF001D478F /* Grizz2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grizz2.m4a; sourceTree = "<group>"; };
-		3458783926B092CF001D478F /* Grizz3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grizz3.m4a; sourceTree = "<group>"; };
-		3458783A26B092CF001D478F /* Grizz1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grizz1.m4a; sourceTree = "<group>"; };
-		3458783B26B092CF001D478F /* ThemeSong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThemeSong.m4a; sourceTree = "<group>"; };
-		3458783C26B092CF001D478F /* Icebear1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icebear1.m4a; sourceTree = "<group>"; };
-		3458783D26B092CF001D478F /* Icebear3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icebear3.m4a; sourceTree = "<group>"; };
-		3458783E26B092CF001D478F /* Icebear2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icebear2.m4a; sourceTree = "<group>"; };
-		3458783F26B092CF001D478F /* Panpan2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan2.m4a; sourceTree = "<group>"; };
-		3458784026B092CF001D478F /* Panpan3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan3.m4a; sourceTree = "<group>"; };
-		3458784126B092CF001D478F /* Panpan1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panpan1.m4a; sourceTree = "<group>"; };
 		3458784D26B14E0A001D478F /* IntroRustL-Base.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntroRustL-Base.otf"; sourceTree = "<group>"; };
 		345F0B1A26AA00260079F576 /* We Bare Bears SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Bare Bears SoundBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		345F0B1D26AA00260079F576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,19 +60,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3458783726B092CF001D478F /* Sounds */ = {
+		34357E5626C588E2003F4C69 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				3458783826B092CF001D478F /* Grizz2.m4a */,
-				3458783926B092CF001D478F /* Grizz3.m4a */,
-				3458783A26B092CF001D478F /* Grizz1.m4a */,
-				3458783B26B092CF001D478F /* ThemeSong.m4a */,
-				3458783C26B092CF001D478F /* Icebear1.m4a */,
-				3458783D26B092CF001D478F /* Icebear3.m4a */,
-				3458783E26B092CF001D478F /* Icebear2.m4a */,
-				3458783F26B092CF001D478F /* Panpan2.m4a */,
-				3458784026B092CF001D478F /* Panpan3.m4a */,
-				3458784126B092CF001D478F /* Panpan1.m4a */,
+				34357E5726C588E2003F4C69 /* Grizz2.m4a */,
+				34357E5826C588E2003F4C69 /* Grizz3.m4a */,
+				34357E5926C588E2003F4C69 /* Grizz1.m4a */,
+				34357E5A26C588E2003F4C69 /* ThemeSong.m4a */,
+				34357E5B26C588E2003F4C69 /* Icebear1.m4a */,
+				34357E5C26C588E2003F4C69 /* Icebear3.m4a */,
+				34357E5D26C588E2003F4C69 /* Icebear2.m4a */,
+				34357E5E26C588E2003F4C69 /* Panpan2.m4a */,
+				34357E5F26C588E2003F4C69 /* Panpan3.m4a */,
+				34357E6026C588E2003F4C69 /* Panpan1.m4a */,
 			);
 			path = Sounds;
 			sourceTree = SOURCE_ROOT;
@@ -88,6 +88,7 @@
 		345F0B1126AA00260079F576 = {
 			isa = PBXGroup;
 			children = (
+				34357E5626C588E2003F4C69 /* Sounds */,
 				345877FB26AD644A001D478F /* README.md */,
 				345F0B1C26AA00260079F576 /* We Bare Bears SoundBoard */,
 				345F0B1B26AA00260079F576 /* Products */,
@@ -113,7 +114,6 @@
 				345F0B2626AA00280079F576 /* Assets.xcassets */,
 				345F0B2826AA00280079F576 /* LaunchScreen.storyboard */,
 				345F0B2B26AA00280079F576 /* Info.plist */,
-				3458783726B092CF001D478F /* Sounds */,
 			);
 			path = "We Bare Bears SoundBoard";
 			sourceTree = "<group>";
@@ -175,20 +175,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3458784626B092CF001D478F /* Icebear1.m4a in Resources */,
+				34357E6A26C588E2003F4C69 /* Panpan1.m4a in Resources */,
 				345F0B2A26AA00280079F576 /* LaunchScreen.storyboard in Resources */,
-				3458784526B092CF001D478F /* ThemeSong.m4a in Resources */,
+				34357E6926C588E2003F4C69 /* Panpan3.m4a in Resources */,
+				34357E6226C588E2003F4C69 /* Grizz3.m4a in Resources */,
+				34357E6326C588E2003F4C69 /* Grizz1.m4a in Resources */,
 				345F0B2726AA00280079F576 /* Assets.xcassets in Resources */,
+				34357E6726C588E2003F4C69 /* Icebear2.m4a in Resources */,
+				34357E6626C588E2003F4C69 /* Icebear3.m4a in Resources */,
 				3458784E26B14E0A001D478F /* IntroRustL-Base.otf in Resources */,
-				3458784A26B092CF001D478F /* Panpan3.m4a in Resources */,
-				3458784B26B092CF001D478F /* Panpan1.m4a in Resources */,
-				3458784226B092CF001D478F /* Grizz2.m4a in Resources */,
-				3458784426B092CF001D478F /* Grizz1.m4a in Resources */,
-				3458784326B092CF001D478F /* Grizz3.m4a in Resources */,
-				3458784726B092CF001D478F /* Icebear3.m4a in Resources */,
+				34357E6826C588E2003F4C69 /* Panpan2.m4a in Resources */,
+				34357E6126C588E2003F4C69 /* Grizz2.m4a in Resources */,
 				345F0B2526AA00270079F576 /* Main.storyboard in Resources */,
-				3458784826B092CF001D478F /* Icebear2.m4a in Resources */,
-				3458784926B092CF001D478F /* Panpan2.m4a in Resources */,
+				34357E6526C588E2003F4C69 /* Icebear1.m4a in Resources */,
+				34357E6426C588E2003F4C69 /* ThemeSong.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

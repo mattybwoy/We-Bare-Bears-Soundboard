@@ -14,6 +14,7 @@ This app focuses on experimenting with the filesystem, displaying images on scre
 - Theme song now played when clicked on main heading
 - Individual soundbites added to main buttons
 - Extra soundbites added, random soundbite played when button is pressed
+- App can now be adjusted to accomodate for various screen sizes
 
 ## Improvements
 Nothing!!!!

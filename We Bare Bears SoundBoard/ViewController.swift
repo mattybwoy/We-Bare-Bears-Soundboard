@@ -14,8 +14,6 @@ class ViewController: UIViewController {
     let grizzSounds = ["Grizz1", "Grizz2", "Grizz3"]
     let panpanSounds = ["Panpan1", "Panpan2", "Panpan3"]
     let iceSounds = ["Icebear1", "Icebear2", "Icebear3"]
-
-    @IBOutlet weak var soundBoardLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,10 +51,6 @@ class ViewController: UIViewController {
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
                 
-    }
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        soundBoardLabel.sizeToFit()
     }
 }
 
