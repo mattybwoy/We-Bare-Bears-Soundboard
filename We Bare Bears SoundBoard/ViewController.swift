@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     let grizzSounds = ["Grizz1", "Grizz2", "Grizz3"]
     let panpanSounds = ["Panpan1", "Panpan2", "Panpan3"]
     let iceSounds = ["Icebear1", "Icebear2", "Icebear3"]
+    var soundWave: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,18 +22,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        var soundWave = sender.currentTitle!
         
-        if soundWave == "GrizzButton" {
-            soundWave = grizzSounds.randomElement()!
-        } else if soundWave == "PanpanButton" {
-            soundWave = panpanSounds.randomElement()!
-        } else if soundWave == "IceBearButton" {
-            soundWave = iceSounds.randomElement()!
+        guard let song = sender.currentTitle else { return  }
+        
+        if song == "GrizzButton" {
+            soundWave = grizzSounds.randomElement()
+        } else if song == "PanpanButton" {
+            soundWave = panpanSounds.randomElement()
+        } else if song == "IceBearButton" {
+            soundWave = iceSounds.randomElement()
         } else {
             soundWave = "ThemeSong"
         }
         
+        guard let soundWave = soundWave else { return }
         playSound(soundName: soundWave)
         // sets opacity to half - you can change the opacity by editing "0.5"
         sender.alpha = 0.5
